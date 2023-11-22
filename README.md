@@ -20,7 +20,7 @@
 
 <h2 align="center"> Self-taught<img src="./assets/animated-flame-01.gif" height="24px"/> and passionate<img src="./assets/animated-flame-01.gif" height="24px"/> about coding! </h2><br>
 
--   👨‍💻 I'm PETER IRUNGU👋, a  student, I'm currently pursuing a   Information Technology Degree in Kenya. <br><br><br>
+-   👨‍💻 I'm PETER IRUNGU👋, a  student, I'm currently pursuing Information Technology Degree in Kenya. <br><br><br>
 
 -   🌳 I’m currently learning AI and ML using Python! <br><br><br>
 
