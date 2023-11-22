@@ -5,7 +5,6 @@
 <div align="center">
   <img src="./assets/animated-flame-01.gif" width="1.75%" align="left"/>
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Alidante+, +Welcome+to+my+Profile!" alt="Hey, I'm Alidante, Welcome to my Profile! animated typed out" width="90%" align="middle"/>
-  <img src="./assets/animated-flame-01.gif" width="1.75%" align="right"/>
 </div>
 
 <img src="./assets/borderseparator.gif" width="100%"/>
@@ -21,7 +20,7 @@
 
 <h2 align="center"> Self-taught<img src="./assets/animated-flame-01.gif" height="24px"/> and passionate<img src="./assets/animated-flame-01.gif" height="24px"/> about coding! </h2><br>
 
--   👨‍💻 I'm PETER IRUNGU👋, a  student, I'm currently pursuing a   Information Technology Degree in the Kenya. <br><br><br>
+-   👨‍💻 I'm PETER IRUNGU👋, a  student, I'm currently pursuing a   Information Technology Degree in Kenya. <br><br><br>
 
 -   🌳 I’m currently learning AI and ML using Python! <br><br><br>
 
@@ -104,12 +103,12 @@
 
 <div align="center">
   <h2 align="center">👨‍💻 Projects <img src="./assets/borderseparator.gif"/></h2><br>
-  <a href="https://github.com/alidante254/potfolio" target="_blank">
+<!--   <a href="https://github.com/alidante254/potfolio" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=alidante254&theme=radical&repo=potfolio" width="49%" alt="Selenium Twitter Scraper"/>
   </a>
   <a href="https://github.com/alidante254/upcoming" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=alidante254&theme=radical&repo=upcoming" width="49%" alt="upcoming"/>
-  </a>
+  </a> -->
   <a href="https://github.com/alidante254/sprianto" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=alidante254&theme=radical&repo=sprianto" width="49%" alt="sprianto"/>
   </a>
@@ -119,8 +118,4 @@
 </div>
 
 </br>
-
-<img src="./assets/animated-flame-01.gif" width="16px" align="left"/>
-<img src="./assets/animated-flame-01.gif" width="16px" align="right"/>
-
 <div align="center">
