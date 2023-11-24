@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Alidante+, +Welcome+to+my+Profile!" alt="Hey, I'm Alidante, Welcome to my Profile! animated typed out" width="90%" align="middle"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Alidante,+Welcome+to+my+Profile!" alt="Hey, I'm Alidante, Welcome to my Profile! animated typed out" width="90%" align="middle"/>
 </div>
 <div align="center">
   <p><b>Profile Views</b></p>
