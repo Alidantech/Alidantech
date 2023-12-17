@@ -9,10 +9,10 @@
 </div>
 <br>
 
-> **👨‍💻 Pursuing an Information Technology Degree in Kenya.**
-> **🌐 Learning AI and Machine Learning with Python.**
-> **🎶 Music lover and occasional guitarist.**
-> **☕ Coffee enthusiast and coding enthusiast.**
+- > **👨‍💻 Pursuing an Information Technology Degree in Kenya.**
+- > **🌐 Learning AI and Machine Learning with Python.**
+- > **🎶 Music lover and occasional vocalist.**
+- > **☕ Coffee enthusiast and coding enthusiast.**
 
 
 
@@ -62,15 +62,19 @@
 <br>
  <h3 align="center"> <strong> Github Statistics </strong></h3>
 <div align="center">
- <img src="https://github-readme-activity-graph.vercel.app/graph?username=alidante254&custom_title=alidante254's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=58A6FF&line=58A6FF&point=F8D847&area_color=0D1117&title_color=58A6FF&area=true" alt="alidante254's Github Activity Graph" width="100%">
+ <img src="https://github-readme-activity-graph.vercel.app/graph?username=alidante254&custom_title=alidante254's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=58A60F&line=58A60F&point=F8D847&area_color=0D1117&title_color=58A6FF&area=true" alt="alidante254's Github Activity Graph" width="100%">
 </div>
 <br>
 <br>
 <br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=alidante254&theme=dark&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" align="middle" /> <br><h2></h2><br>
+  <img src="https://github-profile-trophy.vercel.app/?username=alidante254&theme=juicyfresh&no-frame=true&no-bg=true&row=1&column=7&title_color=2ED573" width="100%" alt="Trophy" align="middle" /> <br><br><br>
+</div>
+
+
   <img src="https://streak-stats.demolab.com?user=alidante254&theme=dark" width="49%" alt="streaks graph" />
+
   <img src="https://github-readme-stats.vercel.app/api?username=alidante254&theme=dark&show_icons=true&count_private=true" width="49%" alt="stats graph" />
 </div> 
 
