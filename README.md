@@ -42,7 +42,7 @@
 <h2> <strong> ⚙️ Technologies and Skills</h2>
   <br>
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alidante254&theme=dark&langs_count=14&card_width=540&layout=compact" alt="Most used languages">
+   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark)
   <br>
 <!-- 
   <a href="https://wakatime.com/@Alidante_254" target="_blank">
