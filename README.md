@@ -1,11 +1,9 @@
-
-
 ![Hey, I'm Peter, Welcome to my Profile! animated typed out](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2800&pause=2000&color=58A60F&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Peter,+Welcome+to+my+Profile!)
 
 ## Profile Views
 ![Profile Views](https://profile-counter.glitch.me/alidante254/count.svg)
 
-## About Me
+## About
 
 - **👨‍💻 Pursuing an Information Technology Degree in Kenya.**
 - **🌐 Learning AI and Machine Learning with Python.**
@@ -22,15 +20,21 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark)
 
 ### Languages, Frameworks, and Tools
-![Skills Logos](https://skillicons.dev/icons?i=git,github,githubactions,nodejs,vite,html,css,js,ts,react,redux,java,py,firebase,mongodb,mysql,postman,netlify,figma,php,r)
+![Skills Logos](https://skillicons.dev/icons?i=git,github,githubactions,vite,html,css,js,ts,react,java,py,r,mysql,figma,php,)
 
 ### Actively Learning
-![Actively Learning Logos](https://skillicons.dev/icons?i=django,flutter,typescript)
+![Actively Learning Logos](https://skillicons.dev/icons?i=django,flutter,mongodb,firebase,dart,nodejs)
 
 ## Github Statistics
+
+### Activity Graph
 ![alidante254's Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alidante254&custom_title=alidante254's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=58A60F&line=58A60F&point=F8D847&area_color=0D1117&title_color=58A6FF&area=true)
 
+### Earned Trophies
 ![Trophy](https://github-profile-trophy.vercel.app/?username=alidante254&theme=juicyfresh&no-frame=true&no-bg=true&row=1&column=7&title_color=2ED573)
 
+### Streak
 ![Streaks Graph](https://streak-stats.demolab.com?user=alidante254&theme=dark)
+
+### Contribution Statistics
 ![Stats Graph](https://github-readme-stats.vercel.app/api?username=alidante254&theme=dark&show_icons=true&count_private=true)
