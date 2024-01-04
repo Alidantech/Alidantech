@@ -1,4 +1,4 @@
-![Hey, I'm Peter, Welcome to my Profile! animated typed out](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2800&pause=2000&color=58A60F&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Peter,+Welcome+to+my+Profile!)
+![Hey, I'm Peter, Welcome to my Profile! animated typed out](https://readme-typing-svg.demolab.com?font=monospace&size=40&duration=2800&pause=2000&color=11FF11&center=false&vCenter=true&width=940&lines=Hey%2C+I'm+PETER,+Welcome+to+my+github+page!)
 
 ## Profile Views
 ![Profile Views](https://profile-counter.glitch.me/alidante254/count.svg)
@@ -20,10 +20,10 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark)
 
 ### Languages, Frameworks, and Tools
-![Skills Logos](https://skillicons.dev/icons?i=git,github,githubactions,vite,html,css,js,ts,react,java,py,r,mysql,figma,php,)
+![Skills Logos](https://skillicons.dev/icons?i=git,github,githubactions,html,css,js,ts,react,java,py,r,mysql,figma,php,)
 
 ### Actively Learning
-![Actively Learning Logos](https://skillicons.dev/icons?i=django,flutter,mongodb,firebase,dart,nodejs)
+![Actively Learning Logos](https://skillicons.dev/icons?i=django,flutter,mongodb,firebase,dart,nodejs,vite)
 
 ## Github Statistics
 
