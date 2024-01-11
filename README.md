@@ -33,7 +33,7 @@
 ### Trophies
 ![Trophy](https://github-profile-trophy.vercel.app/?username=alidante254&theme=juicyfresh&no-frame=true&no-bg=true&row=1&column=7&title_color=2ED573)
 
-### Streak
+### Streak 
 ![Streaks Graph](https://streak-stats.demolab.com?user=alidante254&theme=dark)
 
 ### Contributions
