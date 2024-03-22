@@ -16,8 +16,8 @@
 [![Sololearn](https://img.shields.io/badge/Sololearn-f20057?style=for-the-badge&logoColor=white)](https://www.sololearn.com/profile/alidante/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/alidante/)
 
-## ⚙️ Programming Skills
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark)
+<!-- ## ⚙️ Programming Skills
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark) -->
 
 ### Languages, Frameworks, and Tools
 ![Skills Logos](https://skillicons.dev/icons?i=git,github,githubactions,html,css,js,ts,react,java,py,r,mysql,figma,php,)
@@ -25,7 +25,7 @@
 ### Actively Learning
 ![Actively Learning Logos](https://skillicons.dev/icons?i=django,flutter,mongodb,firebase,dart,nodejs,vite)
 
-## Github Statistics
+<!-- ## Github Statistics
 
 ### Activity
 ![alidante254's Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alidante254&custom_title=alidante254's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=58A60F&line=58A60F&point=F8D847&area_color=0D1117&title_color=58A6FF&area=true)
@@ -37,4 +37,4 @@
 ![Streaks Graph](https://streak-stats.demolab.com?user=alidante254&theme=dark)
 
 ### Contributions
-![Stats Graph](https://github-readme-stats.vercel.app/api?username=alidante254&theme=dark&show_icons=true&count_private=true)
+![Stats Graph](https://github-readme-stats.vercel.app/api?username=alidante254&theme=dark&show_icons=true&count_private=true) -->
