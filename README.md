@@ -3,12 +3,12 @@
 ## Profile Views
 ![Profile Views](https://profile-counter.glitch.me/alidantech/count.svg)
 
-## About
+## About me
 
-- **👨‍💻 Pursuing an Information Technology Degree in Kenya.**
-- **🌐 Learning AI and Machine Learning with Python.**
-- **🎶 Music lover and occasional vocalist.**
-- **☕ Coffee enthusiast and coding enthusiast.**
+**👨‍💻 Pursuing an IT Degree.**
+**🌐 Working as a web developer.**
+**🎶 Building projects at prenext.**
+**☕ Active mobile developer.**
 
 ## Education and Courses
 [![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)](https://www.coursera.org/user/alidante)
@@ -20,10 +20,10 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark) -->
 
 ### Languages, Frameworks, and Tools
-![Skills Logos](https://skillicons.dev/icons?i=git,github,githubactions,html,css,js,ts,react,java,py,r,mysql,figma,php,)
+![Skills Logos](https://skillicons.dev/icons?i=github,css,js,ts,react,java,flutter,mongodb,firebase,dart,nodejs,php,nextjs,mui,tailwind)
 
-### Actively Learning
-![Actively Learning Logos](https://skillicons.dev/icons?i=django,flutter,mongodb,firebase,dart,nodejs,vite)
+<!-- ### Actively Learning
+<!-- ![Actively Learning Logos](https://skillicons.dev/icons?i=django,vite)
 
 <!-- ## Github Statistics
 
