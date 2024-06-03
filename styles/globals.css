@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-dashed-border {
+    border-style: dashed;
+    border-width: 2px; /* Adjust the width as needed */
+    border-color: black; /* Adjust the color as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+    border-dasharray: 10; /* Adjust the dash size */
+  }
+
+/* styles/globals.css */
+.container {
+    position: relative;
+  }
+  
+  .tags {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .tag {
+    width: max-content;
+    padding: 0.25rem 0.5rem;
+    background-color: #26aa0565; /* Background color of the tags */
+    border-radius: 0.5rem;
+    font-size: 0.75rem; /* Adjust font size as needed */
+    transform-origin: center center;
+  }
+  
+  .tag:nth-child(1) {
+    transform: rotate(0deg) translateX(200px) rotate(-0deg);
+  }
+  .tag:nth-child(2) {
+    transform: rotate(60deg) translateX(200px) rotate(-60deg);
+  }
+  .tag:nth-child(3) {
+    transform: rotate(120deg) translateX(200px) rotate(-120deg);
+  }
+  .tag:nth-child(4) {
+    transform: rotate(180deg) translateX(200px) rotate(-180deg);
+  }
+  .tag:nth-child(5) {
+    transform: rotate(240deg) translateX(200px) rotate(-240deg);
+  }
+  .tag:nth-child(6) {
+    transform: rotate(300deg) translateX(200px) rotate(-300deg);
+  }
+  
+  

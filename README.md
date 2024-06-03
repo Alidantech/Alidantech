@@ -1,40 +1,53 @@
-![Hey, I'm Peter, Welcome to my Profile! animated typed out](https://readme-typing-svg.demolab.com?font=monospace&size=40&duration=2800&pause=2000&color=11FF11&center=false&vCenter=true&width=940&lines=Hey%2C+I'm+PETER,+Welcome+to+my+github+page!)
+# Next.js & NextUI Template
 
-## Profile Views
-![Profile Views](https://profile-counter.glitch.me/alidantech/count.svg)
+This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
 
-## About me
+[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
 
-**👨‍💻 Pursuing an IT Degree.**
-**🌐 Working as a web developer.**
-**🎶 Building projects at prenext.**
-**☕ Active mobile developer.**
+## Technologies Used
 
-## Education and Courses
-[![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)](https://www.coursera.org/user/alidante)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/alidante/)
-[![Sololearn](https://img.shields.io/badge/Sololearn-f20057?style=for-the-badge&logoColor=white)](https://www.sololearn.com/profile/alidante/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/alidante/)
+- [Next.js 14](https://nextjs.org/docs/getting-started)
+- [NextUI v2](https://nextui.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind Variants](https://tailwind-variants.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [next-themes](https://github.com/pacocoursey/next-themes)
 
-<!-- ## ⚙️ Programming Skills
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark) -->
+## How to Use
 
-### Languages, Frameworks, and Tools
-![Skills Logos](https://skillicons.dev/icons?i=github,css,js,ts,react,java,flutter,mongodb,firebase,dart,nodejs,php,nextjs,mui,tailwind)
+### Use the template with create-next-app
 
-<!-- ### Actively Learning
-<!-- ![Actively Learning Logos](https://skillicons.dev/icons?i=django,vite)
+To create a new project based on this template using `create-next-app`, run the following command:
 
-<!-- ## Github Statistics
+```bash
+npx create-next-app -e https://github.com/nextui-org/next-app-template
+```
 
-### Activity
-![alidante254's Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alidante254&custom_title=alidante254's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=58A60F&line=58A60F&point=F8D847&area_color=0D1117&title_color=58A6FF&area=true)
+### Install dependencies
 
-### Trophies
-![Trophy](https://github-profile-trophy.vercel.app/?username=alidante254&theme=juicyfresh&no-frame=true&no-bg=true&row=1&column=7&title_color=2ED573)
+You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
 
-### Streak 
-![Streaks Graph](https://streak-stats.demolab.com?user=alidante254&theme=dark)
+```bash
+npm install
+```
 
-### Contributions
-![Stats Graph](https://github-readme-stats.vercel.app/api?username=alidante254&theme=dark&show_icons=true&count_private=true) -->
+### Run the development server
+
+```bash
+npm run dev
+```
+
+### Setup pnpm (optional)
+
+If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+
+```bash
+public-hoist-pattern[]=*@nextui-org/*
+```
+
+After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+
+## License
+
+Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
