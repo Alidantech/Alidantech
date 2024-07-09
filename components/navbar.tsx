@@ -15,7 +15,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
 
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/lib/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
   TwitterIcon,
@@ -24,7 +24,7 @@ import {
   HeartFilledIcon,
   SearchIcon,
   Logo,
-} from "@/components/icons";
+} from "@/lib/svg/icons";
 
 export const Navbar = () => {
   const searchInput = (

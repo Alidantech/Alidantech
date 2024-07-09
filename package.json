@@ -1,7 +1,11 @@
 {
-	"name": "next-app-template",
+	"name": "alidantech",
 	"version": "0.0.1",
 	"private": true,
+	"author": {
+		"name": "Peter Alidante",
+		"email": "peteralidante254@gmail.com"
+	},
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",

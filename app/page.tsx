@@ -1,11 +1,11 @@
+import React from "react";
 import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/lib/config/site";
 import { Button, ButtonGroup } from "@nextui-org/button";
-import { GithubIcon } from "@/components/icons";
+import { GithubIcon } from "@/lib/svg/icons";
 import HeroVideo from "@/components/HeroVideo";
-import MyCard from "@/app/widgets/MyCard";
-import MySong from "@/app/widgets/MySong";
+import MySong from "@/components/MySong";
 
 export default function Home() {
   const parts = ["work", "overview", "music"];
@@ -33,7 +33,7 @@ export default function Home() {
                     variant: "shadow",
                   })}
                   style={{ padding: "0.5rem 1rem" }}
-                  href={siteConfig.links.docs}
+                  href={""}
                 >
                   My Blogs
                 </Link>

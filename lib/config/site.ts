@@ -62,9 +62,10 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/alidantech",
-    twitter: "https://twitter.com/alidantepeter",
-    docs: "/",
-    discord: "/",
-    sponsor: "/ ",
+    twitter: "https://x.com/alidantech",
+    linkedin: "https://www.linkedin.com/in/alidantech",
+    tiktok: "https://www.tiktok.com/@alidantech",
+    instagram: "https://www.instagram.com/alidantech",
+    facebook: "https://www.facebook.com/alidantech",
   },
 };

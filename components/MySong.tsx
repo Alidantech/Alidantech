@@ -4,12 +4,12 @@ import {Card, CardBody,   } from "@nextui-org/card";
 import {Button} from "@nextui-org/button";
 import {Slider} from "@nextui-org/slider";
 
-import {HeartIcon} from "@/svg/heart";
-import {PauseCircleIcon} from "@/svg/pause";
-import {NextIcon} from "@/svg/next";
-import {PreviousIcon} from "@/svg/prev";
-import {RepeatOneIcon} from "@/svg/repeat";
-import {ShuffleIcon} from "@/svg/shuffle";
+import {HeartIcon} from "@/lib/svg/heart";
+import {PauseCircleIcon} from "@/lib/svg/pause";
+import {NextIcon} from "@/lib/svg/next";
+import {PreviousIcon} from "@/lib/svg/prev";
+import {RepeatOneIcon} from "@/lib/svg/repeat";
+import {ShuffleIcon} from "@/lib/svg/shuffle";
 
 export default function App() {
   const [liked, setLiked] = React.useState(false);
