@@ -57,14 +57,6 @@ export default function Home() {
                   <img src="/hero-photo.png" alt="hero photo" className="" />
                 </div>
               </div>
-              <div className="tags absolute inset-0 flex items-center justify-center">
-                <span className="tag absolute">React</span>
-                <span className="tag absolute">Node.js</span>
-                <span className="tag absolute">TypeScript</span>
-                <span className="tag absolute">GraphQL</span>
-                <span className="tag absolute">Next.js</span>
-                <span className="tag absolute">Tailwind CSS</span>
-              </div>
             </div>
             <div className="heading p-2">
               <h1 className="text-md md:text-lg font-bold">
