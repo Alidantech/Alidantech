@@ -32,10 +32,10 @@ export default function HeroVideo() {
     <div className="absolute top-0 w-full h-screen z-0">
       <video
         ref={videoRef}
-        className="w-full h-full object-cover z-0"
-        muted
         autoPlay
         loop
+        muted
+        className="w-full h-full object-cover z-0"
       >
         <source src={videoUrl} type="video/mp4" />
         Your browser does not support the video tag.
@@ -46,7 +46,7 @@ export default function HeroVideo() {
           backgroundColor: theme === "dark" ? "#00000099" : "#ffffff23",
           backdropFilter: "blur(10px)",
         }}
-      ></div>
+      />
     </div>
   );
 }
