@@ -39,8 +39,8 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
-      className="w-full flex justify-stretch"
-      height={30}
+      className="w-full flex justify-stretch bg-blue-900 text-white"
+      height={50}
       maxWidth="full"
       position="sticky"
     >
@@ -76,7 +76,7 @@ export const Navbar = () => {
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
             <GithubIcon className="text-default-500" />
           </Link>
-          <ThemeSwitch />
+          {/* <ThemeSwitch /> */}
         </NavbarItem>
         {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
       </NavbarContent>
