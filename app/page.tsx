@@ -3,13 +3,13 @@ import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const bounceTransition = {
-  y: {
-    duration: 0.4,
-    yoyo: Infinity,
-    ease: "easeOut",
-  },
-};
+// const bounceTransition = {
+//   y: {
+//     duration: 0.4,
+//     yoyo: Infinity,
+//     ease: "easeOut",
+//   },
+// };
 
 const LandingPage = () => {
   const controls = useAnimation();
@@ -23,8 +23,8 @@ const LandingPage = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-900 via-cyan-900 to-gray-900 text-white">
       <main className="flex flex-col items-center justify-center pt-10 px-6 text-center">
         <motion.div
-          initial={{ y: -20 }}
           animate={{ y: 0 }}
+          initial={{ y: -20 }}
           transition={{
             duration: 0.5,
             ease: "easeInOut",
@@ -38,9 +38,9 @@ const LandingPage = () => {
           Mobile, Web, Web3 Developer with AI Skills
         </p>
         <motion.button
+          className="mt-6 px-6 py-3 bg-cyan-600 text-lg font-semibold rounded-full hover:bg-cyan-700"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="mt-6 px-6 py-3 bg-cyan-600 text-lg font-semibold rounded-full hover:bg-cyan-700"
         >
           Get in Touch
         </motion.button>
@@ -49,9 +49,9 @@ const LandingPage = () => {
       <section className="mt-16 flex justify-center">
         <div className="p-10 rounded-lg">
           <motion.img
-            src="/my-avatar.png"
             alt="Profile"
             className="rounded-lg h-64 w-72 border-4 border-cyan-500"
+            src="/my-avatar.png"
             whileHover={{ scale: 1.1 }}
           />
         </div>
@@ -68,8 +68,9 @@ const LandingPage = () => {
           ].map(({ icon, label, delay = 0 }, index) => (
             <motion.div
               key={index}
-              initial={{ y: -20 }}
               animate={{ y: 0 }}
+              className="flex flex-col items-center"
+              initial={{ y: -20 }}
               transition={{
                 duration: 0.5,
                 ease: "easeInOut",
@@ -78,7 +79,6 @@ const LandingPage = () => {
                 delay,
               }}
               whileHover={{ scale: 1.1 }}
-              className="flex flex-col items-center"
             >
               <div className="rounded-full p-6 bg-gradient-to-r from-blue-500 to-cyan-500">
                 <span className="text-4xl">{icon}</span>
@@ -90,16 +90,16 @@ const LandingPage = () => {
 
         <motion.div
           ref={ref}
-          initial="hidden"
           animate={controls}
+          className="mt-72"
+          initial="hidden"
+          transition={{ duration: 0.5, ease: "easeInOut" }}
           variants={{
             hidden: { opacity: 0, y: 100 },
             visible: { opacity: 1, y: 0 },
           }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="mt-72"
         >
-          <h2 className="text-4xl font-bold">Let's Work Together!</h2>
+          <h2 className="text-4xl font-bold">Let&apos;s Work Together!</h2>
           <p className="mt-4">
             Please fill the form below to receive a quote for your project.
             <br />
@@ -147,15 +147,15 @@ const LandingPage = () => {
           {/* Main Content */}
           <div className="p-6 bg-[#1B1B3A30] w-full md:w-2/3">
             <img
-              src="https://via.placeholder.com/400x200"
               alt="Header"
               className="rounded-lg w-full object-cover h-48 mb-4"
+              src="https://via.placeholder.com/400x200"
             />
             <div>
               <div className="text-sm text-yellow-500">FINTECH ANALYSIS</div>
               <h2 className="text-2xl font-bold text-white mt-2">
-                Tough Times Don't Have to Mean Tough Terms: Leveraging Financial
-                and Cap Table Modeling in VC Negotiations
+                Tough Times Don&apos;t Have to Mean Tough Terms: Leveraging
+                Financial and Cap Table Modeling in VC Negotiations
               </h2>
               <p className="mt-4 text-gray-300">
                 Convallis cras semper auctor neque morbi blandit cursus risus
@@ -213,11 +213,11 @@ const LandingPage = () => {
           ].map(({ value, label, color, delay }, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
+              className="text-center"
+              initial={{ opacity: 0, y: 50 }}
               transition={{ duration: delay }}
               whileHover={{ y: -10 }}
-              className="text-center"
             >
               <p className={`text-5xl font-bold ${color}`}>{value}</p>
               <p className="mt-2">{label}</p>
@@ -227,22 +227,22 @@ const LandingPage = () => {
         <div className="mt-72 text-center">
           <p className="text-lg">2023 &bull; All rights reserved</p>
           <div className="flex justify-center space-x-4 mt-2">
-            <a href="#" className="hover:underline">
+            <a className="hover:underline" href="/">
               Cookie Policy
             </a>
-            <a href="#" className="hover:underline">
+            <a className="hover:underline" href="/">
               Privacy Policy
             </a>
           </div>
           <div className="flex justify-center space-x-4 mt-2">
-            <a href="#">
-              <i className="fab fa-facebook-f"></i>
+            <a href="/">
+              <i className="fab fa-facebook-f" />
             </a>
-            <a href="#">
-              <i className="fab fa-twitter"></i>
+            <a href="/">
+              <i className="fab fa-twitter" />
             </a>
-            <a href="#">
-              <i className="fab fa-linkedin-in"></i>
+            <a href="/">
+              <i className="fab fa-linkedin-in" />
             </a>
           </div>
         </div>
