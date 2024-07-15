@@ -122,6 +122,68 @@ const LandingPage = () => {
         </motion.div>
       </section>
 
+      <div className="bg-[#1B1B3A10] mt-72 rounded-lg mx-auto overflow-hidden max-w-4xl w-full shadow-lg">
+        <div className="flex flex-col md:flex-row">
+          {/* Sidebar */}
+          <div className="bg-[#27275015] p-6 w-full md:w-1/3 flex flex-col justify-between">
+            <div>
+              <div className="text-sm text-gray-400">
+                FINANCE &gt; PROCESSES
+              </div>
+              <div className="mt-4 text-lg font-semibold text-white">
+                Cryptocurrency Market: Blockchain
+              </div>
+              <ul className="mt-8 space-y-4 text-gray-300">
+                <li>An Introduction to Ethereum</li>
+                <li>Volatile Emerging Market Currency</li>
+                <li>Strategic Financial Leadership</li>
+              </ul>
+            </div>
+            <button className="mt-8 px-4 py-2 bg-cyan-600 text-lg font-semibold rounded-full hover:bg-cyan-700 text-white">
+              VIEW ALL
+            </button>
+          </div>
+
+          {/* Main Content */}
+          <div className="p-6 bg-[#1B1B3A30] w-full md:w-2/3">
+            <img
+              src="https://via.placeholder.com/400x200"
+              alt="Header"
+              className="rounded-lg w-full object-cover h-48 mb-4"
+            />
+            <div>
+              <div className="text-sm text-yellow-500">FINTECH ANALYSIS</div>
+              <h2 className="text-2xl font-bold text-white mt-2">
+                Tough Times Don't Have to Mean Tough Terms: Leveraging Financial
+                and Cap Table Modeling in VC Negotiations
+              </h2>
+              <p className="mt-4 text-gray-300">
+                Convallis cras semper auctor neque morbi blandit cursus risus
+                ultrices facilisi nullam vehicula ipsum mattis tellus elementum
+                sagittis vitae pretium lectus turpis habitasse platea.
+                Scelerisque ultrices auctor augue ut lectus. Iaculis urna id
+                volutpat lacus laoreet.
+              </p>
+              <div className="mt-4 flex space-x-2 gap-2 flex-wrap">
+                {[
+                  "BUSINESS INSIGHTS",
+                  "FINTECH",
+                  "IT OUTSTAFFING",
+                  "BLOCKCHAIN",
+                ].map((tag, index) => (
+                  <span
+                    key={index}
+                    className="bg-blue-500 text-white text-sm px-3 py-1 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section className="mt-72 px-2">
         <div className="text-center">
           <h2 className="text-2xl font-bold mb-16">
