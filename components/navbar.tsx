@@ -5,13 +5,13 @@ import {
   NavbarMenuToggle,
   NavbarBrand,
   NavbarItem,
+  NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import NextLink from "next/link";
-
 import { siteConfig } from "@/lib/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { TwitterIcon, GithubIcon, Logo } from "@/lib/svg/icons";
+import { TwitterIcon, GithubIcon, Logo, SearchIcon } from "@/lib/svg/icons";
 
 export const Navbar = () => {
   // const searchInput = (
@@ -37,48 +37,55 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
-      className="w-full flex justify-stretch bg-blue-900 text-white"
-      height={50}
-      maxWidth="full"
+      className="flex py-1 border-b-1 dark:border-gray-900"
+      height={60}
+      maxWidth="xl"
       position="sticky"
     >
-      <NavbarContent className="" justify="start">
-        <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-            <p className="font-bold text-inherit">Alidantech</p>
-          </NextLink>
-        </NavbarBrand>
-        {/* <ul className="hidden lg:flex gap-4 justify-start ml-2">
-          {siteConfig.navItems.map((item) => (
-            <NavbarItem key={item.href}>
-              <NextLink
-                className={clsx(
-                  linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium",
-                )}
+      <div className="self-center w-full flex justify-around items-center">
+        <NavbarContent className="" justify="start">
+          <NavbarBrand as="li" className="gap-3 max-w-fit">
+            <NextLink
+              className="flex justify-start items-center gap-1"
+              href="/"
+            >
+              <Logo />
+              <p className="font-bold text-inherit">Alidantech</p>
+            </NextLink>
+          </NavbarBrand>
+          <ul className="hidden lg:flex gap-4 font-bold justify-start ml-2 light:text-gray-800">
+            {siteConfig.navItems.map((item) => (
+              <NavbarItem key={item.href}>
+                <NextLink 
+                className="hover:outline-2 outline-cyan-500 bg-transparent"
                 color="foreground"
-                href={item.href}
-              >
-                {item.label}
-              </NextLink>
-            </NavbarItem>
-          ))}
-        </ul> */}
-      </NavbarContent>
-      <NavbarContent className="hidden sm:flex" justify="end">
-        <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
-            <TwitterIcon className="text-default-500" />
-          </Link>
-          <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <GithubIcon className="text-default-500" />
-          </Link>
-          {/* <ThemeSwitch /> */}
-        </NavbarItem>
-        {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
-      </NavbarContent>
-      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+                 href={item.href}>
+                  {item.label}
+                </NextLink>
+              </NavbarItem>
+            ))}
+          </ul>
+        </NavbarContent>
+        <NavbarContent className="hidden md:flex" justify="end">
+          <NavbarItem className="hidden md:flex gap-2">
+            <ThemeSwitch />
+
+            <Link
+              isExternal
+              aria-label="Twitter"
+              href={siteConfig.links.twitter}
+            >
+              <TwitterIcon className="text-default-500" />
+            </Link>
+            <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+              <GithubIcon className="text-default-500" />
+            </Link>
+          </NavbarItem>
+          {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
+        </NavbarContent>
+      </div>
+
+      <NavbarContent className="md:hidden basis-1 pl-4" justify="end">
         <Link isExternal aria-label="Github" href={siteConfig.links.github}>
           <GithubIcon className="text-default-500" />
         </Link>
@@ -87,8 +94,8 @@ export const Navbar = () => {
       </NavbarContent>
       <NavbarMenu>
         {/* {searchInput} */}
-        <div className="mx-4 mt-2 flex flex-col gap-2">
-          {/* {siteConfig.navMenuItems.map((item, index) => (
+        <div className="px-2 py-4 border-t-1  h-full flex flex-col gap-2">
+          {siteConfig.navItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
                 color={
@@ -98,13 +105,13 @@ export const Navbar = () => {
                       ? "danger"
                       : "foreground"
                 }
-                href="#"
+                href={item.href}
                 size="lg"
               >
                 {item.label}
               </Link>
             </NavbarMenuItem>
-          ))} */}
+          ))}
         </div>
       </NavbarMenu>
     </NextUINavbar>

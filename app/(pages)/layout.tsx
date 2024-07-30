@@ -1,9 +1,7 @@
 import "@/lib/styles/globals.css";
 import type { Metadata, Viewport } from "next";
-
 import clsx from "clsx";
-
-import { Providers } from "./providers";
+import { Providers } from "@/app/providers";
 
 import { siteConfig } from "@/lib/config/site";
 import { fontSans } from "@/lib/config/fonts";

@@ -3,14 +3,6 @@ import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-// const bounceTransition = {
-//   y: {
-//     duration: 0.4,
-//     yoyo: Infinity,
-//     ease: "easeOut",
-//   },
-// };
-
 const LandingPage = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
@@ -20,20 +12,9 @@ const LandingPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-900 via-cyan-900 to-gray-900 text-white">
+    <div className="min-h-screen">
       <main className="flex flex-col items-center justify-center pt-10 px-6 text-center">
-        <motion.div
-          animate={{ y: 0 }}
-          initial={{ y: -20 }}
-          transition={{
-            duration: 0.5,
-            ease: "easeInOut",
-            repeat: Infinity,
-            repeatType: "mirror",
-          }}
-        >
-          <h2 className="text-6xl font-bold mt-2">Welcome to My Portfolio</h2>
-        </motion.div>
+        <h2 className="text-6xl font-bold mt-2">Welcome to My Portfolio</h2>
         <p className="text-lg mt-4">
           Mobile, Web, Web3 Developer with AI Skills
         </p>
@@ -122,68 +103,6 @@ const LandingPage = () => {
         </motion.div>
       </section>
 
-      <div className="bg-[#1B1B3A10] mt-72 rounded-lg mx-auto overflow-hidden max-w-4xl w-full shadow-lg">
-        <div className="flex flex-col md:flex-row">
-          {/* Sidebar */}
-          <div className="bg-[#27275015] p-6 w-full md:w-1/3 flex flex-col justify-between">
-            <div>
-              <div className="text-sm text-gray-400">
-                FINANCE &gt; PROCESSES
-              </div>
-              <div className="mt-4 text-lg font-semibold text-white">
-                Cryptocurrency Market: Blockchain
-              </div>
-              <ul className="mt-8 space-y-4 text-gray-300">
-                <li>An Introduction to Ethereum</li>
-                <li>Volatile Emerging Market Currency</li>
-                <li>Strategic Financial Leadership</li>
-              </ul>
-            </div>
-            <button className="mt-8 px-4 py-2 bg-cyan-600 text-lg font-semibold rounded-full hover:bg-cyan-700 text-white">
-              VIEW ALL
-            </button>
-          </div>
-
-          {/* Main Content */}
-          <div className="p-6 bg-[#1B1B3A30] w-full md:w-2/3">
-            <img
-              alt="Header"
-              className="rounded-lg w-full object-cover h-48 mb-4"
-              src="https://via.placeholder.com/400x200"
-            />
-            <div>
-              <div className="text-sm text-yellow-500">FINTECH ANALYSIS</div>
-              <h2 className="text-2xl font-bold text-white mt-2">
-                Tough Times Don&apos;t Have to Mean Tough Terms: Leveraging
-                Financial and Cap Table Modeling in VC Negotiations
-              </h2>
-              <p className="mt-4 text-gray-300">
-                Convallis cras semper auctor neque morbi blandit cursus risus
-                ultrices facilisi nullam vehicula ipsum mattis tellus elementum
-                sagittis vitae pretium lectus turpis habitasse platea.
-                Scelerisque ultrices auctor augue ut lectus. Iaculis urna id
-                volutpat lacus laoreet.
-              </p>
-              <div className="mt-4 flex space-x-2 gap-2 flex-wrap">
-                {[
-                  "BUSINESS INSIGHTS",
-                  "FINTECH",
-                  "IT OUTSTAFFING",
-                  "BLOCKCHAIN",
-                ].map((tag, index) => (
-                  <span
-                    key={index}
-                    className="bg-blue-500 text-white text-sm px-3 py-1 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <section className="mt-72 px-2">
         <div className="text-center">
           <h2 className="text-2xl font-bold mb-16">
@@ -226,14 +145,7 @@ const LandingPage = () => {
         </div>
         <div className="mt-72 text-center">
           <p className="text-lg">2023 &bull; All rights reserved</p>
-          <div className="flex justify-center space-x-4 mt-2">
-            <a className="hover:underline" href="/">
-              Cookie Policy
-            </a>
-            <a className="hover:underline" href="/">
-              Privacy Policy
-            </a>
-          </div>
+
           <div className="flex justify-center space-x-4 mt-2">
             <a href="/">
               <i className="fab fa-facebook-f" />

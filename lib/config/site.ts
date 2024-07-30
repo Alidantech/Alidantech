@@ -10,56 +10,27 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Career",
+      href: "/career",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Contact",
+      href: "/contact",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Music",
+      href: "/music",
     },
     {
-      label: "About",
-      href: "/about",
-    },
-  ],
-  navMenuItems: [
-    {
-      label: "Profile",
-      href: "/profile",
-    },
-    {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Services",
+      href: "/services",
     },
     {
       label: "Projects",
       href: "/projects",
     },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
   ],
+  navMenuItems: [],
   links: {
     github: "https://github.com/alidantech",
     twitter: "https://x.com/alidantech",
