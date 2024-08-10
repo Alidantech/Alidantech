@@ -26,7 +26,7 @@ const LandingPage = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          maxWidth: 1200,
+          maxWidth: 1250,
           margin: "0 auto",
         }}
       >

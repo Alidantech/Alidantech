@@ -2,27 +2,32 @@ import React from "react";
 
 const ProfileHero = () => {
   return (
-    <div className="flex flex-col items-center justify-center  h-screen p-8 ">
-      <div className="text-center">
-        <div className="flex items-center justify-center space-x-2 mb-4">
-          <span className="text-4xl">👋</span>
-          <h1 className="text-4xl font-bold">Hey, I&apos;m Peter</h1>
+    <div className="relative flex items-center justify-center h-screen p-8">
+      {/* Background Circle */}
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-gradient-to-r from-orange-100 via-orange-200 to-orange-300 dark:from-orange-400 dark:via-orange-500 dark:to-orange-600">
+        <div className="relative">
+          <img
+            src="/hero-photo.png"
+            alt="peter-irungu"
+            className="w-90 h-auto"
+          />
         </div>
-        <h2 className="text-2xl font-semibold mb-4">Full-Stack Developer.</h2>
-        <p className="text-lg mb-6">
-          Full Stack Frontend Developer and Content Writing Based on L.A. I
-          specialize in Bug Fixing, Responsive Web Design, and Visual
-          Development.
-        </p>
-        <div className="flex justify-center space-x-4">
-          <button className="bg-yellow-500 text-black px-6 py-2 rounded-lg font-semibold">
-            HIRE ME
-          </button>
-          <button className="flex items-center space-x-2 text-white">
-            <span className="text-xl">&#9658;</span>
-            <span>Play Intro</span>
-          </button>
-        </div>
+      </div>
+      {/* Text Section */}
+      <div className="absolute top-1/4 left-10">
+        <h1 className="text-8xl font-bold mb-12">PETER</h1>
+        <h2 className="text-lg mt-2 mb-8">
+          I&apos;m a <u>software</u> <u>engineer</u> based in Nairobi,
+          <br /> Kenya.
+        </h2>
+        <button className="mt-6 bg-orange-500 text-white px-12 py-3 rounded-lg font-semibold">
+          HIRE ME
+        </button>
+      </div>
+
+      {/* Surname on the Right */}
+      <div className="absolute top-3/5 right-10">
+        <h1 className="text-8xl font-bold text-orange-500">IRUNGU</h1>
       </div>
     </div>
   );

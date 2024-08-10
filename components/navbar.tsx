@@ -26,8 +26,8 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
-      className="flex py-3"
-      height={60}
+      className="flex py-4"
+      height={65}
       maxWidth="xl"
       position="sticky"
     >
@@ -38,12 +38,10 @@ export const Navbar = () => {
               className="flex justify-start items-center gap-1"
               href="/"
             >
-              <Image
+              <img
                 alt="Logo"
-                className="rounded-full bg-gray-200 border-2 border-gray-400 bg-cover bg-center"
-                height={40}
-                src="/my-avatar.png"
-                width={40}
+                className="h-10 w-10 rounded-full bg-gray-200 border-2 border-gray-400 bg-cover bg-center"
+                src="/me.webp"
               />
               <span className="flex flex-col">
                 <b className="text-primary-500 text-xs ">
