@@ -1,7 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Alidantech - Potfolio Website",
+  name: "PETER IRUNGU",
+  userName: "PETER IRUNGU",
+  title: "Software Engineer",
   description:
     "My personal portfolio website. I am a full-stack developer and I love to build web applications.",
   navItems: [
@@ -10,24 +12,12 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Career",
-      href: "/career",
-    },
-    {
-      label: "Contact",
-      href: "/contact",
+      label: "Projects",
+      href: "/projects",
     },
     {
       label: "Music",
       href: "/music",
-    },
-    {
-      label: "Services",
-      href: "/services",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
     },
   ],
   navMenuItems: [],

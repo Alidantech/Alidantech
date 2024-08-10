@@ -3,6 +3,8 @@ import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
+import HeroCarousel from "./widgets/Hero";
+
 const LandingPage = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
@@ -12,32 +14,24 @@ const LandingPage = () => {
   }
 
   return (
-    <div className="min-h-screen">
-      <main className="flex flex-col items-center justify-center pt-10 px-6 text-center">
-        <h2 className="text-6xl font-bold mt-2">Welcome to My Portfolio</h2>
-        <p className="text-lg mt-4">
-          Mobile, Web, Web3 Developer with AI Skills
-        </p>
-        <motion.button
-          className="mt-6 px-6 py-3 bg-cyan-600 text-lg font-semibold rounded-full hover:bg-cyan-700"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          Get in Touch
-        </motion.button>
-      </main>
-
-      <section className="mt-16 flex justify-center">
-        <div className="p-10 rounded-lg">
-          <motion.img
-            alt="Profile"
-            className="rounded-lg h-64 w-72 border-4 border-cyan-500"
-            src="/my-avatar.png"
-            whileHover={{ scale: 1.1 }}
-          />
-        </div>
+    <div className="min-h-screen flex flex-col ">
+      <section
+        style={{
+          height: "calc(100vh - 4rem)",
+          backgroundImage:
+            "url(https://source.unsplash.com/1600x900/?technology)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          maxWidth: 1200,
+          margin: "0 auto",
+        }}
+      >
+        <HeroCarousel />
       </section>
-
       <section className="mt-16 text-center px-6">
         <div className="flex flex-wrap justify-center gap-8">
           {[

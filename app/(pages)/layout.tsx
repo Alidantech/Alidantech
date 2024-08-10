@@ -1,11 +1,14 @@
 import "@/lib/styles/globals.css";
 import type { Metadata, Viewport } from "next";
-import clsx from "clsx";
-import { Providers } from "@/app/providers";
 
+import clsx from "clsx";
+
+import { Providers } from "@/app/providers";
 import { siteConfig } from "@/lib/config/site";
 import { fontSans } from "@/lib/config/fonts";
 import { Navbar } from "@/components/navbar";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const metadata: Metadata = {
   title: {
