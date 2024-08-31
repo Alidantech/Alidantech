@@ -7,19 +7,19 @@
 
 **👨‍💻 Pursuing an IT Degree.**
 **🌐 Working as a web developer.**
-**🎶 Building projects at prenext.**
 **☕ Active mobile developer.**
-
+<!--
 ## Education and Courses
 [![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)](https://www.coursera.org/user/alidante)
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/alidante/)
 [![Sololearn](https://img.shields.io/badge/Sololearn-f20057?style=for-the-badge&logoColor=white)](https://www.sololearn.com/profile/alidante/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/alidante/)
-
+-->
 <!-- ## ⚙️ Programming Skills
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Alidante254&hide_progress=true&theme=dark) -->
 
-### Languages, Frameworks, and Tools
+## Languages, Frameworks, and Tools
+
 ![Skills Logos](https://skillicons.dev/icons?i=github,css,js,ts,react,java,flutter,mongodb,firebase,dart,nodejs,php,nextjs,mui,tailwind)
 
 <!-- ### Actively Learning
