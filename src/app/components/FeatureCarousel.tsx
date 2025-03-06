@@ -5,28 +5,33 @@ import { motion, useAnimation, useMotionValue } from "framer-motion"
 
 const features = [
   {
-    title: "Minimal Design",
-    description: "Clean aesthetics that put your content in the spotlight.",
-    icon: "✨",
-  },
-  {
-    title: "Responsive",
-    description: "Flawless experiences across all devices and screen sizes.",
-    icon: "📱",
-  },
-  {
-    title: "Fast Performance",
-    description: "Lightning-quick load times for smooth user interactions.",
+    title: "Apps Development",
+    description: "Mobile developer with experience in building responsive and user-friendly mobile applications.",
     icon: "⚡",
   },
   {
-    title: "Accessibility",
-    description: "Inclusive design practices for all users.",
-    icon: "🌈",
+    title: "Web Development",
+    description: "Web developer with expertise in building modern and scalable web applications using the latest technologies.",
+    icon: "🌐",
   },
   {
-    title: "SEO Optimized",
-    description: "Built to help your site rank higher in search results.",
+    title: "Data Science",
+    description: "Data scientist with strong analytical skills and experience in extracting insights from large datasets.",
+    icon: "🧮",
+  },
+  {
+    title: "UI/UX Design",
+    description: "UI/UX designer with the ability to create visually appealing and intuitive user interfaces.",
+    icon: "✨",
+  },
+  {
+    title: "Data Analysis",
+    description: "Data analyst with expertise in analyzing and interpreting data to support informed business decisions.",
+    icon: "📊",
+  },
+  {
+    title: "Bug Fixing",
+    description: "Developer with strong debugging skills and the ability to identify and fix software bugs efficiently.",
     icon: "🔍",
   },
 ]
@@ -53,9 +58,11 @@ export default function FeatureCarousel() {
   }
 
   return (
-    <div className="py-20 bg-gradient-to-b from-background to-secondary/20">
+    <div className="py-20 bg-gradient-to-b from-background to-secondary/20" id="services">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center mb-12 text-foreground">Why Choose Us</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
+          Services that I offer (👌🤞)
+        </h2>
         <motion.div ref={carousel} className="cursor-grab overflow-hidden">
           <motion.div
             drag="x"
@@ -69,7 +76,7 @@ export default function FeatureCarousel() {
             {features.map((feature, index) => (
               <motion.div
                 key={index}
-                className="min-w-[300px] h-[400px] p-8 m-4 bg-background rounded-3xl shadow-lg flex flex-col justify-between hover-lift transition-all duration-300 ease-in-out border-2 border-transparent hover:border-primary/10"
+                className="min-w-[300px] h-[400px] p-8 m-4 bg-background shadow-lg border flex flex-col justify-between hover-lift transition-all duration-300 ease-in-out hover:border-2 hover:border-primary/50"
               >
                 <div>
                   <div className="text-4xl mb-4">{feature.icon}</div>
@@ -78,12 +85,10 @@ export default function FeatureCarousel() {
                 </div>
                 <div className="mt-4">
                   <a
-                    href="https://www.flowersandsaints.com.au"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#contact"
                     className="text-primary hover:underline"
                   >
-                    Learn more →
+                    Get Started →
                   </a>
                 </div>
               </motion.div>

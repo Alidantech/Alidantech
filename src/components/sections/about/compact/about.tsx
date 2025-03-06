@@ -7,7 +7,7 @@ import { ArrowUpRightIcon } from 'lucide-react';
 
 function About() {
   return (
-    <MotionWrap className="w-full py-24 lg:py-32" id="about">
+    <MotionWrap className="w-full container mx-auto py-24 lg:py-32" id="about">
       <div className=" px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="space-y-4">

@@ -41,7 +41,7 @@ export default function NewsletterSubscribe() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-8 shadow-lg"
+          className="bg-gradient-to-br from-primary/10 to-secondary/10  p-8 shadow-lg"
         >
           <h2 className="text-2xl font-bold text-foreground mb-4 text-center">Stay Inspired</h2>
           <p className="text-muted-foreground mb-6 text-center">

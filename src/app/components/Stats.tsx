@@ -14,7 +14,7 @@ export default function Stats() {
   return (
     <GradientBackground
       id="stats"
-      className="py-20 bg-primary"
+      className="py-20 bg-primary/20"
       colorFrom="from-primary"
       colorTo="to-blue-700"
       direction="to-r"
@@ -30,8 +30,8 @@ export default function Stats() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
             >
-              <dt className="text-sm font-medium leading-6 text-primary-foreground">{stat.name}</dt>
-              <dd className="mt-2 text-5xl font-bold tracking-tight text-white">{stat.value}</dd>
+              <dt className="text-sm font-medium leading-6">{stat.name}</dt>
+              <dd className="mt-2 text-5xl font-bold tracking-tight">{stat.value}</dd>
             </motion.div>
           ))}
         </dl>

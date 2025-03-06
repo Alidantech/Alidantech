@@ -58,7 +58,7 @@ export default function Services() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl font-bold text-foreground sm:text-4xl mb-4">Services Offered</h2>
+          <h2 className="text-3xl font-bold text-foreground sm:text-4xl mb-4">Services Offered </h2>
           <p className="text-muted-foreground">I offer the following services</p>
         </motion.div>
 

@@ -81,7 +81,7 @@ export default function Header() {
         </div>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="mailto:alidantech@example.com">
+          <Link href="mailto:peteralidante254@gmail.com">
             <Button size="sm" className="bg-primary hover:bg-primary/90">
               HIRE ME
             </Button>
@@ -135,7 +135,7 @@ export default function Header() {
             >
               CONTACT
             </Link>
-            <Link href="mailto:alidantech@example.com" className="block w-full mt-4">
+            <Link href="mailto:peteralidante254@gmail.com" className="block w-full mt-4">
               <Button size="sm" className="w-full bg-primary hover:bg-primary/90">
                 HIRE ME
               </Button>

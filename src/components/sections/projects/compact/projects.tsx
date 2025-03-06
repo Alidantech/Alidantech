@@ -15,9 +15,12 @@ import { projects } from '@/components/sections/projects/config';
 
 function Projects() {
   return (
-    <MotionWrap className="w-full py-24 lg:py-32" id="projects">
-      <div className="px-4 md:px-6">
-        <div className="grid items-start gap-10 lg:grid-cols-2">
+    <MotionWrap
+      className="container mx-auto w-full py-24 lg:py-32"
+      id="projects"
+    >
+      <div className="px-4 md:px-6 ">
+        <div className="flex flex-col w-full items-start  justify-center gap-10 lg:grid-cols-2">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
               My Projects
@@ -27,7 +30,7 @@ function Projects() {
               cool, functional stuff.
             </p>
           </div>
-          <div className="flex items-center justify-center overflow-hidden lg:px-12">
+          <div className="flex items-center justify-center overflow-hidden lg:px-12 w-full">
             <Carousel
               opts={{
                 align: 'start'

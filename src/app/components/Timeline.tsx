@@ -42,19 +42,6 @@ const timelineEvents = [
   },
 ]
 
-const CodeIcon = ({ progress }: { progress: number }) => (
-  <svg
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    className="w-6 h-6"
-    style={{ transform: `scale(${progress})` }}
-  >
-    <path d="M16 18L22 12L16 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M8 6L2 12L8 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-)
-
 export default function Timeline() {
   const [expandedEvent, setExpandedEvent] = useState<number | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -80,29 +67,21 @@ export default function Timeline() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8" ref={containerRef}>
         <motion.div
-          className="text-center mb-12"
+          className="text-center mb-8 sm:mb-12"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl font-bold text-foreground sm:text-4xl">My Developer Journey</h2>
-          <p className="mt-4 text-lg text-muted-foreground">The evolution of my skills and expertise over the years</p>
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground sm:text-4xl">My Developer Journey</h2>
+          <p className="mt-2 sm:mt-4 text-base sm:text-lg text-muted-foreground">The evolution of my skills and expertise over the years</p>
         </motion.div>
 
         <div className="relative">
           {/* Vertical line */}
           <motion.div
-            className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-primary/20"
+            className="absolute left-4 sm:left-1/2 transform sm:-translate-x-1/2 w-0.5 h-full bg-primary/20"
             style={{ scaleY: scaleX }}
           />
-
-          {/* Code icon */}
-          {/* <motion.div
-            className="sticky top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-primary"
-            style={{ y: useTransform(scrollYProgress, [0, 1], [0, 100]) }}
-          >
-            <CodeIcon progress={useTransform(scrollYProgress, [0, 1], [0.5, 1]) as any} />
-          </motion.div> */}
 
           {timelineEvents.map((event, index) => (
             <TimelineEvent
@@ -136,34 +115,36 @@ function TimelineEvent({
   return (
     <motion.div
       ref={ref}
-      className={`mb-12 flex justify-between items-center w-full ${index % 2 === 0 ? "flex-row-reverse" : ""}`}
+      className={`mb-8 sm:mb-12 flex justify-between items-center w-full ${
+        index % 2 === 0 ? "sm:flex-row-reverse" : ""
+      }`}
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.8, delay: index * 0.1 }}
     >
-      <div className="w-5/12" />
+      <div className="hidden sm:block w-5/12" />
       <div className="z-20">
-        <div className="flex items-center justify-center w-8 h-8 bg-primary rounded-full">
-          <div className="w-3 h-3 bg-background rounded-full" />
+        <div className="flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-primary rounded-full">
+          <div className="w-2 h-2 sm:w-3 sm:h-3 bg-background rounded-full" />
         </div>
       </div>
       <motion.div
-        className="w-5/12 cursor-pointer"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        className="w-[calc(100%-2rem)] sm:w-5/12 cursor-pointer"
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
         onClick={onToggle}
       >
-        <div className="p-4 bg-background/80 backdrop-blur-sm rounded-lg shadow-md border border-primary/10">
-          <span className="font-bold text-primary">{event.year}</span>
-          <h3 className="text-lg font-semibold mb-1">{event.title}</h3>
-          <p className="text-muted-foreground">{event.description}</p>
+        <div className="p-3 sm:p-4 bg-background/80 backdrop-blur-sm rounded-lg shadow-md border border-primary/10">
+          <span className="font-bold text-primary text-sm sm:text-base">{event.year}</span>
+          <h3 className="text-base sm:text-lg font-semibold mb-1">{event.title}</h3>
+          <p className="text-sm sm:text-base text-muted-foreground">{event.description}</p>
           <motion.div
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: isExpanded ? "auto" : 0, opacity: isExpanded ? 1 : 0 }}
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <p className="mt-2 text-sm text-muted-foreground">{event.details}</p>
+            <p className="mt-2 text-xs sm:text-sm text-muted-foreground">{event.details}</p>
           </motion.div>
         </div>
       </motion.div>

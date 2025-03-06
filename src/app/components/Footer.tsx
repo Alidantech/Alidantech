@@ -66,8 +66,8 @@ export default function Footer() {
             </button>
           )}
         </div>
-        <div className="mt-8 md:order-1 md:mt-0">
-          <div className="flex flex-col md:flex-row md:space-x-8 mb-4">
+        <div className="mt-8 md:order-1 md:mt-0 text-center md:text-left">
+          <div className="flex flex-col md:flex-row md:space-x-8 mb-4 justify-center md:justify-start">
             <h3 className="text-sm font-semibold text-foreground mb-2 md:mb-0">Page Links</h3>
             <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
               Homepage
@@ -83,7 +83,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className="flex flex-col md:flex-row md:space-x-8 mb-4">
+          <div className="flex flex-col md:flex-row md:space-x-8 mb-4 justify-center md:justify-start">
             <h3 className="text-sm font-semibold text-foreground mb-2 md:mb-0">Contacts</h3>
             <Link href="tel:+254748311679" className="text-sm text-muted-foreground hover:text-foreground">
               Telephone
@@ -106,7 +106,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className="flex flex-col md:flex-row md:space-x-8">
+          <div className="flex flex-col md:flex-row md:space-x-8 justify-center md:justify-start">
             <h3 className="text-sm font-semibold text-foreground mb-2 md:mb-0">Repositories</h3>
             <Link
               href="https://github.com/Alidantech/upcoming"

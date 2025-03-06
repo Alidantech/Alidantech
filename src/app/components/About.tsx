@@ -21,7 +21,9 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl font-bold text-foreground sm:text-4xl">About me</h2>
+          <h2 className="text-3xl font-bold text-foreground sm:text-3xl">
+            Wondering who I am? (🤔)
+          </h2>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -31,9 +33,9 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6">
                 <h3 className="text-2xl font-bold text-white mb-2">Peter Irungu</h3>
                 <div className="flex flex-col space-y-1">
-                  <span className="text-white/90">Software Developer</span>
-                  <span className="text-white/90">Data Scientist</span>
-                  <span className="text-white/90">Web Developer</span>
+                  <span className="text-white/90">💻 Software Developer</span>
+                  <span className="text-white/90">📊 Data Scientist</span>
+                  <span className="text-white/90">🌐 Web Developer</span>
                 </div>
               </div>
             </div>
@@ -45,16 +47,16 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-muted-foreground mb-6">
-              Hello, my name is Peter. I am a passionate web developer and software engineer based in Kenya. With a
+              👋 Hello, my name is Peter. I am a passionate web developer and software engineer based in Kenya. With a
               strong foundation in programming and a keen eye for design, I strive to create engaging and user-friendly
               web applications.
             </p>
             <p className="text-muted-foreground mb-6">
-              My journey in the world of technology began on 2021. Over the years, I have gained expertise in Web
+              🚀 My journey in the world of technology began on 2021. Over the years, I have gained expertise in Web
               Development, allowing me to tackle a variety of projects with confidence and efficiency.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
+              🎵 When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
               enjoying some quality time with my Music and Reading. I believe in continuous learning and am always
               excited to take on new challenges in the ever-evolving landscape of web development.
             </p>
