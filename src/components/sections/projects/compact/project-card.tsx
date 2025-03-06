@@ -39,7 +39,7 @@ function ProjectCard({
       <CardContent className="p-4 md:p-6">
         <div className="grid gap-2">
           <Image
-            src={thumbnail || '/placeholder.svg'}
+            src={thumbnail || '/image.png'}
             alt={`Image of ${name}`}
             sizes="100vw"
             width={500}

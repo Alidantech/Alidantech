@@ -1,35 +1,26 @@
-import {
-  Header,
-  Hero,
-  About,
-  Skills,
-  Experience,
-  Testimonials,
-  Projects,
-  Contact,
-  Footer
-} from '@/components/sections';
-
-import Cursor from '@/components/cursor/cursor';
-import SmoothScroll from '@/components/smooth-scroll';
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Skills from "./components/Skills"
+import Stats from "./components/Stats"
+import Services from "./components/Services"
+import Projects from "./components/Projects"
+import Testimonials from "./components/Testimonials"
+import Timeline from "./components/Timeline"
+import Contact from "./components/Contact"
 
 export default function Home() {
   return (
-    <SmoothScroll>
-      <div className="flex min-h-[100dvh] flex-col">
-        <Header loader={true} />
-        <main className="flex-1">
-          <Hero />
-          <About />
-          <Skills />
-          <Projects />
-          <Experience />
-          <Testimonials />
-          <Contact />
-          <Footer />
-        </main>
-      </div>
-      <Cursor />
-    </SmoothScroll>
-  );
+    <>
+      <Hero />
+      <About />
+      <Skills />
+      <Stats />
+      <Services />
+      <Projects />
+      <Testimonials />
+      <Timeline />
+      <Contact />
+    </>
+  )
 }
+

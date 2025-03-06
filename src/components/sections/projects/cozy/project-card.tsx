@@ -40,7 +40,7 @@ function ProjectCard({
     >
       <CardContent className="z-[2] inline-block w-full overflow-hidden p-0">
         <Image
-          src={thumbnail || '/placeholder.svg'}
+          src={thumbnail || '/image.png'}
           alt={`Image of ${name}`}
           width={0}
           height={0}

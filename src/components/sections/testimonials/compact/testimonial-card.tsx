@@ -23,7 +23,7 @@ function TestimonialCard({
       <div className="flex items-center p-4">
         <div className="h-12 w-12 overflow-hidden rounded-full border-2 border-white">
           <Image
-            src={image || '/placeholder.svg'}
+            src={image || '/image.png'}
             alt={name || 'Anonymous'}
             className="aspect-square h-auto w-full rounded-full object-cover"
             height={40}
