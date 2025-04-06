@@ -11,7 +11,9 @@ export default function HomeLayout({
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <Header />
-      <main className="min-h-screen flex flex-col justify-between items-center">{children}</main>
+      <main className="min-h-screen overflow-x-hidden flex flex-col justify-between items-center">
+        {children}
+      </main>
       <Footer />
     </ThemeProvider>
   );

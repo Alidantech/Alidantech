@@ -11,11 +11,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata = {
   title: "Peter Irungu | Developer Portfolio",
-  description: "Software Developer, Data Scientist, and Web Developer based in Kenya",
-}
+  description:
+    "Software Developer, Data Scientist, and Web Developer based in Kenya",
+};
 
 export default function RootLayout({
   children,
