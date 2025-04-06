@@ -70,7 +70,7 @@ export default function Testimonials() {
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="w-full flex-shrink-0 px-4">
                   <div className="bg-background/80 backdrop-blur-sm border border-border p-8 rounded-lg shadow-sm">
-                    <p className="text-lg text-muted-foreground mb-6 italic">"{testimonial.quote}"</p>
+                    <p className="text-lg text-muted-foreground mb-6 italic">&ldquo;{testimonial.quote}&rdquo;</p>
                     <div className="flex items-center">
                       <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
                         <Image
