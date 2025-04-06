@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef } from "react"
-import { motion, useScroll, useTransform, useSpring, useInView } from "framer-motion"
+import { motion, useScroll, useSpring, useInView } from "framer-motion"
 import GradientBackground from "@/components/common/gradient-bg"
 
 const timelineEvents = [
