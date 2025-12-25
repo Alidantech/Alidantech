@@ -7,5 +7,4 @@
 - **☕ Active mobile developer.**
 - **✅ Over 3000 commits on Github.**
 
-### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
