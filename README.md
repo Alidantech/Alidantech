@@ -2,7 +2,7 @@
 
 ## About me
 
-- **👨‍💻 Information Techology Graduate.**
+- **👨‍💻 Information Technology Graduate.**
 - **🌐 Working as a web developer.**
 - **☕ Active mobile developer.**
 - **✅ Over 3000 commits on Github.**
