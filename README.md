@@ -5,6 +5,6 @@
 - **👨‍💻 Information Technology Graduate.**
 - **🌐 Working as a web developer.**
 - **☕ Active mobile developer.**
-- **✅ Over 3000 commits on Github.**
+- **✅ Over 14,000 commits on Github.**
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
